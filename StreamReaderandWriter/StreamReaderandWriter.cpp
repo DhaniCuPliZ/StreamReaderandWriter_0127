@@ -12,4 +12,5 @@ int main() {
 	outfile.open("contohfile.txt");
 
 
+
 }
