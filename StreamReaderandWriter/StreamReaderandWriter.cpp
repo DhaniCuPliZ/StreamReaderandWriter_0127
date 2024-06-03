@@ -11,6 +11,15 @@ int main() {
 	//menunjuk ke sebuah nama file
 	outfile.open("contohfile.txt");
 
+	cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 
+	//unlimited loop untuk menulis
+	while (true) {
+		cout << "_ ";
+		//mendapatkan setiap karakkter dalam satu baris
+		getline(cin, baris);
+		//loop akan berhenti jika anda memasukkan karakter q
+		if (baris == "q") break;
+	}
 
 }
